@@ -30,7 +30,7 @@ Route::get('/logout', function () {
 Route::post("/login",[UserController::class,'login']);
 Route::get("/user-list",[UserController::class,'users']);
 Route::post("/filter",[UserController::class,'filter']);
-Route::get("detail/{id}",[ProductController::class,'detail']);
+
 
  
 
